@@ -17,7 +17,7 @@ class Calculator:
             # if self.y !=0:
             return div
         except ZeroDivisionError:
-            print("Cannot divisible by 0")
+            return "Cannot divisible by 0"
 
 x = int(input("Enter the Number1: "))
 y = int(input("Enter the Number2: "))
